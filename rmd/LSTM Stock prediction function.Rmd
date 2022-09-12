@@ -1,0 +1,18 @@
+---
+title: "Stock prediction LSTM Neural Network function"
+author: "Marcos H Silva"
+date: "13/09/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This method execute create a LSTM neural net capable of predict a stock time series using Keras.
+
+I wrote about LSTM and time series on [this article](https://rpubs.com/marcosmhs/rede_lstm_predicao_dolar) in RPubs site.
+
+The code of the method could be downloaded on Github.
