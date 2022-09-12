@@ -286,11 +286,11 @@ lstm_stock <- function(
     return_list[["models_eqm_plot"]] <- models_eqm_plot
   } 
 
-  print('-----------------------------------')
-  print('Execution completed')
-  print(return_list['parameters'])
-  print('EQM')
-  print(return_list[['eqm']])
+  print("-----------------------------------")
+  print("Execution completed")
+  print(return_list["parameters"])
+  print("MSE")
+  print(return_list[["eqm"]])
 
   return(return_list)
 }
