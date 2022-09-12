@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/941112/2c979563ec3f4cf2bacab2f3a26c3c9a
+bundleId: https://api.rpubs.com/api/v1/document/941112/2c979563ec3f4cf2bacab2f3a26c3c9a
+url: http://rpubs.com/marcosmhs/941112
+when: 1662990859.82068
+lastSyncTime: 1662990859.82068
