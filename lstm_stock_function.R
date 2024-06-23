@@ -116,6 +116,7 @@ lstm_stock <- function(
   # test data, to evaluate the model accuracy
   y_test <- model_normalized_data %>% filter(type == "test") %>% select(y_var) %>% as.matrix()
   x_test <- model_normalized_data %>% filter(type == "test") %>% select(x_var) %>% as.matrix()  
+  dim(x_test) <- c(dim(x_test), 1)
   
   # --- model config
   
